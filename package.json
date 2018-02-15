@@ -1,0 +1,21 @@
+{
+  "name": "aqueduct-examples",
+  "version": "1.0.0",
+  "description": "A collection of examples and boilerplate project for accessing shared liquidity w/ Aqueduct",
+  "repository": "https://github.com/ERCdEX/aqueduct-examples",
+  "author": "ERC dEX",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "run-script": "yarn build && node ./dist/script-runner.js --file "
+  },
+  "dependencies": {
+    "@types/ws": "^4.0.1",
+    "@types/yargs": "^11.0.0",
+    "aqueduct": "^1.1.3",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.2",
+    "ws": "^4.0.0",
+    "yargs": "^11.0.0"
+  }
+}
